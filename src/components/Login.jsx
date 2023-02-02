@@ -67,7 +67,7 @@ const Login = () => {
                     <h1>Desafio useState</h1>
                     <p className='fs-6 fw-bold'>Usuario : "react@desafiolatam.com" Contraseña: "desafiolatam"</p>
                     <p>Email</p>
-                    <input value={email} id="inputE" onChange={manejoInput} placeholder='user@example.com' type="text" className='form-control my-3 w-100' name="user-email" />
+                    <input value={email} autoFocus id="inputE" onChange={manejoInput} placeholder='user@example.com' type="text" className='form-control my-3 w-100' name="user-email" />
                     <p>Password</p>
                     <input value={password} type="password" onChange={manejoPassword} className="form-control my-3 w-100" name="Password" />
                     <button disabled={disable} className="btn btn-dark mt-3" type="submit" >Enviar</button>
